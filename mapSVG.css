@@ -1,0 +1,43 @@
+#carte-montreal{
+background-image : url("https://journal-metro-develop.go-vip.co/wp-content/uploads/2020/02/map-montreal-white-green-1800.jpg") !important;
+    background-size:23%;
+    background-repeat: no-repeat;
+    background-position: 10% 70%;
+    background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  font-size:1em;
+    font-weight:500;
+  color:darkslategray	;
+  fill: darkslategray	;
+}
+
+#carte-montreal g a:link, a:visited{
+    fill: #0ffF3E;
+    color:mediumseagreen;
+
+
+}
+
+#carte-montreal  a:hover {
+  transform-origin: 50% 50%;
+    transition: all 1s ease-out;
+fill: #000f3e !important;
+ transform: scale(1.03);
+}
+
+
+#carte-montreal  a:hover g {
+}
+
+  #carte-montreal g text {
+  opacity: 0;
+  color:mediumseagreen !important;
+
+
+}
+
+#carte-montreal svg g:hover text {
+
+  transition: opacity .3s ease-out;
+  opacity: 1;
+}
